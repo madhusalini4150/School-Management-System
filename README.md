@@ -97,6 +97,10 @@ GitHub: https://github.com/madhusalini4150
 
 ---
 
+## Credits
+
+Based on the internship training materials and guidance provided during the Full Stack Python Internship.
+
 ## 📄 License
 
 This project is licensed under the MIT License.
