@@ -1,79 +1,102 @@
-# Schoolmanagement
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
+# 🏫 School Management System
+
+A web-based School Management System developed using **Python, Django, SQLite, HTML, CSS, and Bootstrap**. The application provides separate modules for **Admin, Teacher, and Student** to efficiently manage school activities.
+
+## 🚀 Features
+
+### 👨‍💼 Admin
+- Admin Login
+- Approve/Reject Teacher Accounts
+- Approve/Reject Student Admissions
+- Manage Teachers
+- Manage Students
+- Manage Attendance
+- Publish Notices
+
+### 👨‍🏫 Teacher
+- Teacher Registration & Login
+- Take Student Attendance
+- View Attendance Records
+- Publish Notices
+
+### 👨‍🎓 Student
+- Student Registration & Login
+- View Attendance
+- View Notices
+- Update Profile
+
 ---
-## screenshots
+
+## 🛠️ Technologies Used
+
+- Python
+- Django
+- SQLite
+- HTML
+- CSS
+- Bootstrap
+
+---
+
+## 📷 Screenshots
+
 ### Homepage
-![homepage snap](https://github.com/sumitkumar1503/schoolmanagement/blob/master/static/screenshots/homepage.png?raw=true)
+![Homepage](static/screenshots/homepage.png)
+
 ### Admin Dashboard
-![dashboard snap](https://github.com/sumitkumar1503/schoolmanagement/blob/master/static/screenshots/adminhomepage.png?raw=true)
-### Admin Manage Teacher
-![invoice snap](https://github.com/sumitkumar1503/schoolmanagement/blob/master/static/screenshots/adminteacher.png?raw=true)
+![Admin Dashboard](static/screenshots/adminhomepage.png)
+
+### Manage Teachers
+![Manage Teachers](static/screenshots/adminteacher.png)
+
 ### Attendance
-![doctor snap](https://github.com/sumitkumar1503/schoolmanagement/blob/master/static/screenshots/attendance.png?raw=true)
+![Attendance](static/screenshots/attendance.png)
+
 ### Teacher Dashboard
-![doctor snap](https://github.com/sumitkumar1503/schoolmanagement/blob/master/static/screenshots/teacher.png?raw=true)
+![Teacher Dashboard](static/screenshots/teacher.png)
+
 ---
 
-## Functions
-### Teacher
-First the teacher will apply for job,if he/she gets selected there accounts will be made and approved by the admin, after approval only teacher can access their dashboard.
-After account approval by admin, teacher can take attendance of any class and view their attendance later.
-Teacher can also publish/announce notice to student like submission of assignments.
+## ⚙️ Installation
 
-## Student
-First student will take admission/signup.
-When their account is approved by admin, only then the student can access their dashboard.
-After account approval by admin the student can view their details like attendance.
-Student can't view attendance of other student.
-Student can't announce, they can only view.
+```bash
+git clone https://github.com/madhusalini4150/School-Management-System.git
 
-### Admin
-First admin will signup for a account.
-After login they can see how many student/teacher wants to get job/admission in their school.
-They can approve or delete/cancel the request.
-They can update any student/teacher details.
-Admin can announce notice also.
+cd School-Management-System
 
+python -m venv venv
 
-## Drawbacks
-- On update page of teacher/student you must have to update password.
-- Anyone can become Admin
+venv\Scripts\activate
 
-## HOW TO RUN THIS PROJECT
-- Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
-- Open Terminal and Execute Following Commands :
+pip install -r requirements.txt
 
-``` python -m pip install -r requirements.txt ```
+python manage.py migrate
 
-
-- Download This Project Zip Folder and Extract it
-- Move to project folder in Terminal. Then run following Commands :
+python manage.py runserver
 ```
-py manage.py makemigrations
-py manage.py migrate
-py manage.py runserver
-```
-- Now enter following URL in Your Browser Installed On Your Pc
+
+Open your browser and visit:
+
 ```
 http://127.0.0.1:8000/
 ```
 
-## CHANGES REQUIRED FOR CONTACT US PAGE
-- In settins.py file, You have to give your email and password
-```
-EMAIL_HOST_USER = 'youremail@gmail.com'
-EMAIL_HOST_PASSWORD = 'your email password'
-EMAIL_RECEIVING_USER = 'youremail@gmail.com'
-```
-- Login to gmail through host email id in your browser and open following link and turn it ON
-```
-https://myaccount.google.com/lesssecureapps
-```
+---
 
-## Disclaimer
-This project is developed for demo purpose and it's not supposed to be used in real application.
+## 📚 Project Type
 
-## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/sumit.luv)
-- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
+This project was completed as part of a **Full Stack Python Internship** for learning and academic purposes.
+
+---
+
+## 👩‍💻 Author
+
+**Madhu Salini**
+
+GitHub: https://github.com/madhusalini4150
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
