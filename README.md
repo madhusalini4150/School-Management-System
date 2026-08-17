@@ -114,4 +114,4 @@ I developed and understood the project with the help of the **guidance, explanat
 
 **Madhu Salini**
 
-GitHub: https://github.com/sridivya4150/School-Management-System
+GitHub: https://github.com/madhusalini4150/School-Management-System
