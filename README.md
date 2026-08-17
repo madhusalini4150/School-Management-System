@@ -21,15 +21,6 @@ The project was implemented by following the **guidance and explanations provide
 ### Teacher Dashboard
 ![doctor snap](https://github.com/sumitkumar1503/schoolmanagement/blob/master/static/screenshots/teacher.png?raw=true)
 ---
-# School Management System
-
-A web-based **School Management System** developed using **Python and Django** as part of my internship project.
-
-## About the Project
-
-This project was developed during my internship to gain practical experience in **Python, Django, web development, database integration, and Git/GitHub**.
-
-The project was implemented by following the **guidance and explanations provided during the internship** and using the demonstrated/reference implementation as a learning guide. Through this project, I gained hands-on experience in understanding and working with a complete Django web application.
 
 ## Technologies Used
 
