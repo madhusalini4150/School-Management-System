@@ -1,8 +1,12 @@
 # 🏫 School Management System
 
-A web-based School Management System developed using **Python, Django, SQLite, HTML, CSS, and Bootstrap**. The application provides separate modules for **Admin, Teacher, and Student** to efficiently manage school activities.
+A web-based School Management System developed using Python and Django as part of my internship project.
 
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
+About the Project
+This project was developed during my internship to gain practical experience in Python, Django, web development, database integration, and Git/GitHub.
+
+The project was implemented by following the guidance and explanations provided during the internship and using the demonstrated/reference implementation as a learning guide. Through this project, I gained hands-on experience in understanding and working with a complete Django web application.
+
 ---
 ## screenshots
 ### Homepage
@@ -16,67 +20,68 @@ A web-based School Management System developed using **Python, Django, SQLite, H
 ### Teacher Dashboard
 ![doctor snap](https://github.com/sumitkumar1503/schoolmanagement/blob/master/static/screenshots/teacher.png?raw=true)
 ---
+Technologies Used
+Python
+Django
+HTML
+CSS
+Bootstrap
+SQLite
+Git & GitHub
+Features
+Student registration and login
+Teacher registration and login
+Student dashboard
+Teacher dashboard
+Student attendance management
+Teacher attendance management
+Attendance approval workflow
+Notices
+Student and teacher pages
+User authentication
+Database integration
+Project Structure
+School-Management-System/
+│
+├── school/
+├── schoolmanagement/
+├── static/
+├── templates/
+├── .gitignore
+├── LICENSE
+├── manage.py
+├── README.md
+└── requirements.txt
+How to Run
+1. Clone the repository
+git clone https://github.com/sridivya4150/School-Management-System.git
+cd School-Management-System
+2. Install dependencies
+pip install -r requirements.txt
+3. Apply migrations
+python manage.py migrate
+4. Run the development server
+python manage.py runserver
+Open the local server URL displayed in the terminal.
 
-## Functions
-### Teacher
-First the teacher will apply for job,if he/she gets selected there accounts will be made and approved by the admin, after approval only teacher can access their dashboard.
-After account approval by admin, teacher can take attendance of any class and view their attendance later.
-Teacher can also publish/announce notice to student like submission of assignments.
+Learning Outcomes
+During this internship project, I gained practical experience in:
 
-## Student
-First student will take admission/signup.
-When their account is approved by admin, only then the student can access their dashboard.
-After account approval by admin the student can view their details like attendance.
-Student can't view attendance of other student.
-Student can't announce, they can only view.
+Developing web applications using Django
+Understanding Django project and application structure
+Working with models, views, URLs, and templates
+Implementing user authentication
+Working with databases
+Handling forms and user workflows
+Integrating frontend templates with Django
+Using Git and GitHub for version control
+Acknowledgement
+This project was completed as part of my internship training.
 
-### Admin
-First admin will signup for a account.
-After login they can see how many student/teacher wants to get job/admission in their school.
-They can approve or delete/cancel the request.
-They can update any student/teacher details.
-Admin can announce notice also.
+I developed and understood the project with the help of the guidance, explanations, and reference implementation provided during the internship. The reference project was used as a learning guide while implementing and understanding the different features of the application.
 
+Author
+Madhu Salini
 
-## Drawbacks
-- On update page of teacher/student you must have to update password.
-- Anyone can become Admin
-
-## HOW TO RUN THIS PROJECT
-- Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
-- Open Terminal and Execute Following Commands :
-
-``` python -m pip install -r requirements.txt ```
-
-
-- Download This Project Zip Folder and Extract it
-- Move to project folder in Terminal. Then run following Commands :
-```
-py manage.py makemigrations
-py manage.py migrate
-py manage.py runserver
-```
-- Now enter following URL in Your Browser Installed On Your Pc
-```
-http://127.0.0.1:8000/
-```
-
-## CHANGES REQUIRED FOR CONTACT US PAGE
-- In settins.py file, You have to give your email and password
-```
-EMAIL_HOST_USER = 'youremail@gmail.com'
-EMAIL_HOST_PASSWORD = 'your email password'
-EMAIL_RECEIVING_USER = 'youremail@gmail.com'
-```
-- Login to gmail through host email id in your browser and open following link and turn it ON
-```
-https://myaccount.google.com/lesssecureapps
-```
-
-## Disclaimer
-This project is developed for demo purpose and it's not supposed to be used in real application.
-
-## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/sumit.luv)
+GitHub: https://github.com/sridivya4150/School-Management-System
 - [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
