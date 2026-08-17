@@ -1,11 +1,12 @@
 # 🏫 School Management System
 
-A web-based School Management System developed using Python and Django as part of my internship project.
+A web-based **School Management System** developed using **Python and Django** as part of my internship project.
 
-About the Project
-This project was developed during my internship to gain practical experience in Python, Django, web development, database integration, and Git/GitHub.
+## About the Project
 
-The project was implemented by following the guidance and explanations provided during the internship and using the demonstrated/reference implementation as a learning guide. Through this project, I gained hands-on experience in understanding and working with a complete Django web application.
+This project was developed during my internship to gain practical experience in **Python, Django, web development, database integration, and Git/GitHub**.
+
+The project was implemented by following the **guidance and explanations provided during the internship** and using the demonstrated/reference implementation as a learning guide. Through this project, I gained hands-on experience in understanding and working with a complete Django web application.
 
 ---
 ## screenshots
@@ -20,27 +21,43 @@ The project was implemented by following the guidance and explanations provided 
 ### Teacher Dashboard
 ![doctor snap](https://github.com/sumitkumar1503/schoolmanagement/blob/master/static/screenshots/teacher.png?raw=true)
 ---
-Technologies Used
-Python
-Django
-HTML
-CSS
-Bootstrap
-SQLite
-Git & GitHub
-Features
-Student registration and login
-Teacher registration and login
-Student dashboard
-Teacher dashboard
-Student attendance management
-Teacher attendance management
-Attendance approval workflow
-Notices
-Student and teacher pages
-User authentication
-Database integration
-Project Structure
+# School Management System
+
+A web-based **School Management System** developed using **Python and Django** as part of my internship project.
+
+## About the Project
+
+This project was developed during my internship to gain practical experience in **Python, Django, web development, database integration, and Git/GitHub**.
+
+The project was implemented by following the **guidance and explanations provided during the internship** and using the demonstrated/reference implementation as a learning guide. Through this project, I gained hands-on experience in understanding and working with a complete Django web application.
+
+## Technologies Used
+
+* Python
+* Django
+* HTML
+* CSS
+* Bootstrap
+* SQLite
+* Git & GitHub
+
+## Features
+
+* Student registration and login
+* Teacher registration and login
+* Student dashboard
+* Teacher dashboard
+* Student attendance management
+* Teacher attendance management
+* Attendance approval workflow
+* Notices
+* Student and teacher pages
+* User authentication
+* Database integration
+
+## Project Structure
+
+```text
 School-Management-System/
 │
 ├── school/
@@ -52,36 +69,58 @@ School-Management-System/
 ├── manage.py
 ├── README.md
 └── requirements.txt
-How to Run
-1. Clone the repository
+```
+
+## How to Run
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/sridivya4150/School-Management-System.git
 cd School-Management-System
-2. Install dependencies
+```
+
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
-3. Apply migrations
+```
+
+### 3. Apply migrations
+
+```bash
 python manage.py migrate
-4. Run the development server
+```
+
+### 4. Run the development server
+
+```bash
 python manage.py runserver
+```
+
 Open the local server URL displayed in the terminal.
 
-Learning Outcomes
+## Learning Outcomes
+
 During this internship project, I gained practical experience in:
 
-Developing web applications using Django
-Understanding Django project and application structure
-Working with models, views, URLs, and templates
-Implementing user authentication
-Working with databases
-Handling forms and user workflows
-Integrating frontend templates with Django
-Using Git and GitHub for version control
-Acknowledgement
-This project was completed as part of my internship training.
+* Developing web applications using Django
+* Understanding Django project and application structure
+* Working with models, views, URLs, and templates
+* Implementing user authentication
+* Working with databases
+* Handling forms and user workflows
+* Integrating frontend templates with Django
+* Using Git and GitHub for version control
 
-I developed and understood the project with the help of the guidance, explanations, and reference implementation provided during the internship. The reference project was used as a learning guide while implementing and understanding the different features of the application.
+## Acknowledgement
 
-Author
-Madhu Salini
+This project was completed as part of my **internship training**.
+
+I developed and understood the project with the help of the **guidance, explanations, and reference implementation provided during the internship**. The reference project was used as a learning guide while implementing and understanding the different features of the application.
+
+## Author
+
+**Madhu Salini**
 
 GitHub: https://github.com/sridivya4150/School-Management-System
-- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
